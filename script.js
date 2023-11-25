@@ -5,8 +5,7 @@ const firstDate = new Date(date1);
 const secondDate = new Date(date2);
 
 const diffDays = Math.round((secondDate-firstDate) / oneDay);
-	if(diffDays<0)
-		return -1;
+	
 	return diffDays;	
 }
 
